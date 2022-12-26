@@ -1,0 +1,8 @@
+{
+  // eslint
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["astro", "javascript", "javascriptreact", "typescript", "typescriptreact"]
+}
