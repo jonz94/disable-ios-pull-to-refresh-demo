@@ -1,0 +1,24 @@
+{
+  "name": "@example/basics",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "astro": "astro",
+    "build": "astro build",
+    "dev": "astro dev",
+    "fmt": "prettier -w --plugin-search-dir=. .",
+    "preview": "astro preview",
+    "start": "astro dev"
+  },
+  "dependencies": {
+    "astro": "^1.7.2"
+  },
+  "devDependencies": {
+    "@types/prettier": "^2.7.2",
+    "prettier": "^2.8.1",
+    "prettier-plugin-astro": "^0.7.0",
+    "prettier-plugin-packagejson": "^2.3.0",
+    "typescript": "^4.9.4"
+  }
+}
