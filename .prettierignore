@@ -1,5 +1,1 @@
-*.md
-*.svg
-dist/
-node_modules/
 pnpm-lock.yaml
