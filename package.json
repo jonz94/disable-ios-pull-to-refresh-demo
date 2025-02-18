@@ -29,17 +29,7 @@
     "prettier-plugin-packagejson": "^2.5.8",
     "typescript-eslint": "^8.24.1"
   },
-  "engines": {
-    "node": ">=22",
-    "pnpm": ">=10"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "sharp"
-    ],
-    "overrides": {
-      "esbuild": "^0.25.0"
-    }
+  "overrides": {
+    "esbuild": "^0.25.0"
   }
 }
