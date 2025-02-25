@@ -14,7 +14,7 @@ export default {
       },
     },
     {
-      files: ['tsconfig*.json', '.vscode/*.json'],
+      files: ['.vscode/*.json'],
       options: {
         parser: 'jsonc',
       },
