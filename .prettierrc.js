@@ -4,7 +4,7 @@ export default {
   singleQuote: true,
   printWidth: 120,
 
-  plugins: ['prettier-plugin-packagejson', 'prettier-plugin-astro'],
+  plugins: ['prettier-plugin-packagejson', 'prettier-plugin-astro', 'prettier-plugin-tailwindcss'],
 
   overrides: [
     {
