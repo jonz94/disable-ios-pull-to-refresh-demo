@@ -11,7 +11,8 @@
     "fmt": "pnpm run prettier && pnpm run lint",
     "lint": "eslint . --fix",
     "prettier": "prettier --write .",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "upgrade-tailwindcss": "npx @tailwindcss/upgrade@latest"
   },
   "overrides": {
     "esbuild": "^0.25.0"
