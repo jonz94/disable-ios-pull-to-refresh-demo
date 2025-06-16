@@ -12,6 +12,7 @@
     "lint": "eslint . --fix",
     "prettier": "prettier --write .",
     "preview": "astro preview",
+    "upgrade-astro": "npx @astrojs/upgrade@latest",
     "upgrade-tailwindcss": "npx @tailwindcss/upgrade@latest"
   },
   "overrides": {
