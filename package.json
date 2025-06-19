@@ -12,8 +12,8 @@
     "lint": "eslint . --fix",
     "prettier": "prettier --write .",
     "preview": "astro preview",
-    "upgrade-astro": "npx @astrojs/upgrade@latest",
-    "upgrade-tailwindcss": "npx @tailwindcss/upgrade@latest"
+    "upgrade-astro": "bun x @astrojs/upgrade@latest",
+    "upgrade-tailwindcss": "bun x @tailwindcss/upgrade@latest"
   },
   "overrides": {
     "esbuild": "^0.25.0"
